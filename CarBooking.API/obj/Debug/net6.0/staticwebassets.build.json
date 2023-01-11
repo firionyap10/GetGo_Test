@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0b3py2KHX8Op8dCwC/bz8MW416fqzDOxtkcH0WY4CyU=",
+  "Source": "CarBooking.API",
+  "BasePath": "_content/CarBooking.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

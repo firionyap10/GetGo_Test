@@ -1,0 +1,139 @@
+[2023-01-08 22:12:04.1244] - [] - Microsoft.Hosting.Lifetime 
+Now listening on: https://localhost:7285
+[2023-01-08 22:12:04.2320] - [] - Microsoft.Hosting.Lifetime 
+Now listening on: http://localhost:5290
+[2023-01-08 22:12:04.2559] - [] - Microsoft.Hosting.Lifetime 
+Application started. Press Ctrl+C to shut down.
+[2023-01-08 22:12:04.2622] - [] - Microsoft.Hosting.Lifetime 
+Hosting environment: Development
+[2023-01-08 22:12:04.2622] - [] - Microsoft.Hosting.Lifetime 
+Content root path: C:\Users\FirionYap\source\repos\CarBooking\CarBooking.API\
+[2023-01-08 22:12:06.2399] - [00-7ec91268a2dfd1d516df034fd04480c9-9212de7bc4cc5090-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/index.html - -
+[2023-01-08 22:12:07.2388] - [00-7d02d93b3d9afd4c3fa3e3eba53d110f-6972e99c49911ba1-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - -
+[2023-01-08 22:12:07.2509] - [00-47cb029c0b810f78185864824d7b3e0d-9394a0fd4bb24c43-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/_vs/browserLink - -
+[2023-01-08 22:12:07.2509] - [00-7d02d93b3d9afd4c3fa3e3eba53d110f-6972e99c49911ba1-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 12.9437ms
+[2023-01-08 22:12:07.2509] - [00-7ec91268a2dfd1d516df034fd04480c9-9212de7bc4cc5090-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/index.html - - - 200 - text/html;charset=utf-8 1018.9825ms
+[2023-01-08 22:12:07.5817] - [00-47cb029c0b810f78185864824d7b3e0d-9394a0fd4bb24c43-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 330.7400ms
+[2023-01-08 22:12:08.8918] - [00-ef61e806151038171193bbbc9ab1a3bd-402e53a13d5009ba-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - -
+[2023-01-08 22:12:09.1815] - [00-ef61e806151038171193bbbc9ab1a3bd-402e53a13d5009ba-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 289.8542ms
+[2023-01-08 22:12:15.5479] - [00-06d12414d0b0c54598d58ba631710c1b-b76700a3511cdfcf-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/1.1 GET https://localhost:7285/booking/car?x=-180&y=4 - -
+[2023-01-08 22:12:15.5620] - [00-06d12414d0b0c54598d58ba631710c1b-b76700a3511cdfcf-00] - Microsoft.AspNetCore.Routing.EndpointMiddleware 
+Executing endpoint 'CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API)'
+[2023-01-08 22:12:15.6701] - [00-06d12414d0b0c54598d58ba631710c1b-b76700a3511cdfcf-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker 
+Route matched with {action = "SearchCar", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CarBooking.Entities.Cars.Car]] SearchCar(CarBooking.Entities.Cars.LocationGetRequest) on controller CarBooking.API.Controllers.BookingController (CarBooking.API).
+[2023-01-08 22:12:16.7147] - [00-06d12414d0b0c54598d58ba631710c1b-b76700a3511cdfcf-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker 
+Executed action CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API) in 1037.6395ms
+[2023-01-08 22:12:16.7423] - [00-06d12414d0b0c54598d58ba631710c1b-b76700a3511cdfcf-00] - Microsoft.AspNetCore.Routing.EndpointMiddleware 
+Executed endpoint 'CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API)'
+[2023-01-08 22:12:16.9760] - [00-06d12414d0b0c54598d58ba631710c1b-b76700a3511cdfcf-00] - Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware 
+An unhandled exception has occurred while executing the request.
+[2023-01-08 22:12:17.0169] - [00-06d12414d0b0c54598d58ba631710c1b-b76700a3511cdfcf-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/1.1 GET https://localhost:7285/booking/car?x=-180&y=4 - - - 500 - text/plain;+charset=utf-8 1468.9918ms
+[2023-01-08 22:22:48.1737] - [] - Microsoft.Hosting.Lifetime 
+Now listening on: https://localhost:7285
+[2023-01-08 22:22:48.3034] - [] - Microsoft.Hosting.Lifetime 
+Now listening on: http://localhost:5290
+[2023-01-08 22:22:48.3320] - [] - Microsoft.Hosting.Lifetime 
+Application started. Press Ctrl+C to shut down.
+[2023-01-08 22:22:48.3461] - [] - Microsoft.Hosting.Lifetime 
+Hosting environment: Development
+[2023-01-08 22:22:48.3461] - [] - Microsoft.Hosting.Lifetime 
+Content root path: C:\Users\FirionYap\source\repos\CarBooking\CarBooking.API\
+[2023-01-08 22:22:49.7894] - [00-63ff4a37ed168f2aa92270a8d5be661e-91de91e9d8c8a3a5-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/index.html - -
+[2023-01-08 22:22:50.7891] - [00-dd6088e75c94e98015235318b0f54ab5-9093c88be30b4496-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - -
+[2023-01-08 22:22:50.8519] - [00-765afb87441fb191b5b08eb6040197fc-6e6c310a9c0653f2-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/_vs/browserLink - -
+[2023-01-08 22:22:50.8519] - [00-dd6088e75c94e98015235318b0f54ab5-9093c88be30b4496-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 66.1207ms
+[2023-01-08 22:22:50.8519] - [00-63ff4a37ed168f2aa92270a8d5be661e-91de91e9d8c8a3a5-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/index.html - - - 200 - text/html;charset=utf-8 1160.7817ms
+[2023-01-08 22:22:50.9137] - [00-765afb87441fb191b5b08eb6040197fc-6e6c310a9c0653f2-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.9232ms
+[2023-01-08 22:22:52.9442] - [00-c31db0ab11a8491fdfe61543e82c3336-c91df3435c9326e0-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - -
+[2023-01-08 22:22:53.1012] - [00-3f5668581bdc5954c1370acf6e9a774f-619b3d8f7f64a079-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/1.1 GET https://localhost:7285/booking/car?x=-180&y=4 - -
+[2023-01-08 22:22:53.1012] - [00-3f5668581bdc5954c1370acf6e9a774f-619b3d8f7f64a079-00] - Microsoft.AspNetCore.Routing.EndpointMiddleware 
+Executing endpoint 'CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API)'
+[2023-01-08 22:22:53.1938] - [00-3f5668581bdc5954c1370acf6e9a774f-619b3d8f7f64a079-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker 
+Route matched with {action = "SearchCar", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CarBooking.Entities.Cars.Car]] SearchCar(CarBooking.Entities.Cars.LocationGetRequest) on controller CarBooking.API.Controllers.BookingController (CarBooking.API).
+[2023-01-08 22:22:53.2809] - [00-c31db0ab11a8491fdfe61543e82c3336-c91df3435c9326e0-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 336.6266ms
+[2023-01-08 22:22:53.7153] - [00-3f5668581bdc5954c1370acf6e9a774f-619b3d8f7f64a079-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker 
+Executed action CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API) in 511.8871ms
+[2023-01-08 22:22:53.7153] - [00-3f5668581bdc5954c1370acf6e9a774f-619b3d8f7f64a079-00] - Microsoft.AspNetCore.Routing.EndpointMiddleware 
+Executed endpoint 'CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API)'
+[2023-01-08 22:22:53.8632] - [00-3f5668581bdc5954c1370acf6e9a774f-619b3d8f7f64a079-00] - Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware 
+An unhandled exception has occurred while executing the request.
+[2023-01-08 22:22:53.8938] - [00-3f5668581bdc5954c1370acf6e9a774f-619b3d8f7f64a079-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/1.1 GET https://localhost:7285/booking/car?x=-180&y=4 - - - 500 - text/plain;+charset=utf-8 792.6815ms
+[2023-01-08 22:22:55.1538] - [00-dd7d637705fd246de371926076568e8b-d4da9179f92fee34-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/1.1 GET https://localhost:7285/booking/car?x=-180&y=4 - -
+[2023-01-08 22:22:55.1538] - [00-dd7d637705fd246de371926076568e8b-d4da9179f92fee34-00] - Microsoft.AspNetCore.Routing.EndpointMiddleware 
+Executing endpoint 'CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API)'
+[2023-01-08 22:22:55.1538] - [00-dd7d637705fd246de371926076568e8b-d4da9179f92fee34-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker 
+Route matched with {action = "SearchCar", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CarBooking.Entities.Cars.Car]] SearchCar(CarBooking.Entities.Cars.LocationGetRequest) on controller CarBooking.API.Controllers.BookingController (CarBooking.API).
+[2023-01-08 22:22:55.1837] - [00-dd7d637705fd246de371926076568e8b-d4da9179f92fee34-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker 
+Executed action CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API) in 26.8344ms
+[2023-01-08 22:22:55.1837] - [00-dd7d637705fd246de371926076568e8b-d4da9179f92fee34-00] - Microsoft.AspNetCore.Routing.EndpointMiddleware 
+Executed endpoint 'CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API)'
+[2023-01-08 22:22:55.1947] - [00-dd7d637705fd246de371926076568e8b-d4da9179f92fee34-00] - Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware 
+An unhandled exception has occurred while executing the request.
+[2023-01-08 22:22:55.1947] - [00-dd7d637705fd246de371926076568e8b-d4da9179f92fee34-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/1.1 GET https://localhost:7285/booking/car?x=-180&y=4 - - - 500 - text/plain;+charset=utf-8 41.9742ms
+[2023-01-08 22:24:27.0746] - [] - Microsoft.Hosting.Lifetime 
+Now listening on: https://localhost:7285
+[2023-01-08 22:24:27.1404] - [] - Microsoft.Hosting.Lifetime 
+Now listening on: http://localhost:5290
+[2023-01-08 22:24:27.1615] - [] - Microsoft.Hosting.Lifetime 
+Application started. Press Ctrl+C to shut down.
+[2023-01-08 22:24:27.1682] - [] - Microsoft.Hosting.Lifetime 
+Hosting environment: Development
+[2023-01-08 22:24:27.1682] - [] - Microsoft.Hosting.Lifetime 
+Content root path: C:\Users\FirionYap\source\repos\CarBooking\CarBooking.API\
+[2023-01-08 22:24:28.2531] - [00-a03c2b1a4d41c8247268f7d7d75e8c47-21fe1925dd693f51-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/index.html - -
+[2023-01-08 22:24:29.0823] - [00-62f9b66a58b0ea013384fb5f6856072f-fe724fafbdf34cd4-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - -
+[2023-01-08 22:24:29.0890] - [00-45d103efcc55eeb50ce881182f909e18-c6b3096a1b6e63e9-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/_vs/browserLink - -
+[2023-01-08 22:24:29.0890] - [00-62f9b66a58b0ea013384fb5f6856072f-fe724fafbdf34cd4-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 11.8338ms
+[2023-01-08 22:24:29.1112] - [00-a03c2b1a4d41c8247268f7d7d75e8c47-21fe1925dd693f51-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/index.html - - - 200 - text/html;charset=utf-8 867.0919ms
+[2023-01-08 22:24:29.1372] - [00-45d103efcc55eeb50ce881182f909e18-c6b3096a1b6e63e9-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.2019ms
+[2023-01-08 22:24:29.9222] - [00-ee37938982c4cd73ce8e915e97a2d9b2-952905d003f75515-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - -
+[2023-01-08 22:24:30.1774] - [00-ee37938982c4cd73ce8e915e97a2d9b2-952905d003f75515-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/2 GET https://localhost:7285/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 255.2036ms
+[2023-01-08 22:24:33.7186] - [00-80a5103ee612df8d9caf5aa29d7112ab-ceec72540500b254-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request starting HTTP/1.1 GET https://localhost:7285/booking/car?x=-180&y=4 - -
+[2023-01-08 22:24:33.7263] - [00-80a5103ee612df8d9caf5aa29d7112ab-ceec72540500b254-00] - Microsoft.AspNetCore.Routing.EndpointMiddleware 
+Executing endpoint 'CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API)'
+[2023-01-08 22:24:33.7925] - [00-80a5103ee612df8d9caf5aa29d7112ab-ceec72540500b254-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker 
+Route matched with {action = "SearchCar", controller = "Booking"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CarBooking.Entities.Cars.Car]] SearchCar(CarBooking.Entities.Cars.LocationGetRequest) on controller CarBooking.API.Controllers.BookingController (CarBooking.API).
+[2023-01-08 22:24:37.4466] - [00-80a5103ee612df8d9caf5aa29d7112ab-ceec72540500b254-00] - Microsoft.EntityFrameworkCore.Database.Command 
+Executed DbCommand (175ms) [Parameters=[@__x_0='?' (Precision = 11) (Scale = 8) (DbType = Decimal), @__y_1='?' (Precision = 11) (Scale = 8) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Name], [c].[PlateNumber], [c].[X], [c].[Y]
+FROM [Cars] AS [c]
+WHERE [c].[X] = @__x_0 AND [c].[Y] = @__y_1
+[2023-01-08 22:24:37.5459] - [00-80a5103ee612df8d9caf5aa29d7112ab-ceec72540500b254-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-01-08 22:24:37.5783] - [00-80a5103ee612df8d9caf5aa29d7112ab-ceec72540500b254-00] - Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker 
+Executed action CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API) in 3778.3021ms
+[2023-01-08 22:24:37.5783] - [00-80a5103ee612df8d9caf5aa29d7112ab-ceec72540500b254-00] - Microsoft.AspNetCore.Routing.EndpointMiddleware 
+Executed endpoint 'CarBooking.API.Controllers.BookingController.SearchCar (CarBooking.API)'
+[2023-01-08 22:24:37.6115] - [00-80a5103ee612df8d9caf5aa29d7112ab-ceec72540500b254-00] - Microsoft.AspNetCore.Hosting.Diagnostics 
+Request finished HTTP/1.1 GET https://localhost:7285/booking/car?x=-180&y=4 - - - 404 - application/json;+charset=utf-8 3892.9993ms

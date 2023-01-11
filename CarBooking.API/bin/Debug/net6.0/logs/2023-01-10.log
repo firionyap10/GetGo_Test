@@ -1,0 +1,2 @@
+[2023-01-10 21:47:06.2158] - [00-4748d5252bf26d70b5bd59b46b3efc60-c02a06d1d17014c9-00] - CarBooking.Data.Cars.CarData 
+Method not found: 'Void CoreTypeMappingParameters..ctor(System.Type, Microsoft.EntityFrameworkCore.Storage.ValueConversion.ValueConverter, Microsoft.EntityFrameworkCore.ChangeTracking.ValueComparer, Microsoft.EntityFrameworkCore.ChangeTracking.ValueComparer, System.Func`3<Microsoft.EntityFrameworkCore.Metadata.IProperty,Microsoft.EntityFrameworkCore.Metadata.IEntityType,Microsoft.EntityFrameworkCore.ValueGeneration.ValueGenerator>)'.

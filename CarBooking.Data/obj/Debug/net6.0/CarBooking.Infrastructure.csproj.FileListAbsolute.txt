@@ -1,0 +1,12 @@
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\bin\Debug\net6.0\CarBooking.Infrastructure.deps.json
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\bin\Debug\net6.0\CarBooking.Infrastructure.dll
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\bin\Debug\net6.0\CarBooking.Infrastructure.pdb
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\CarBooking.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\CarBooking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\CarBooking.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\CarBooking.Infrastructure.AssemblyInfo.cs
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\CarBooking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\CarBooking.Infrastructure.dll
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\refint\CarBooking.Infrastructure.dll
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\CarBooking.Infrastructure.pdb
+C:\Users\FirionYap\source\repos\CarBooking\CarBooking.Infrastructure\obj\Debug\net6.0\ref\CarBooking.Infrastructure.dll
